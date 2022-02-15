@@ -1,0 +1,18 @@
+
+nó sẽ phải kiểm tra function chung có tên checkregtration , 
+nếu nó không bằng thì chúng ta mới patch lên server đưa messger về . 
+
+
+Onblur ra thì chúng nhận được cái name và value , 
+dispatch lên cho store kiểm nha nó . 
+và sau nó gọi messger nó biết 
+
+//bai viết ! 
++ Username . Time ,  menu ////
+
+const list = {
+    item = "hello"
+}
+
+
+

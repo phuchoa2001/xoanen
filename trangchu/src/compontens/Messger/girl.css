@@ -1,0 +1,19 @@
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+    .box-username {
+        order: 2;
+    }
+    .ground-messger {
+        order: 1;
+        height: 800px;
+        margin-bottom: 10px;
+    }
+    .gx-5 {
+        --bs-gutter-x: 0px;
+    }
+    .frames-messger .name {
+        margin-left: 10px;
+    }
+    .messger .enterChat {
+        padding-left: 3%;
+    }
+}

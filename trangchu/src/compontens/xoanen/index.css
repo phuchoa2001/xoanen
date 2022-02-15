@@ -1,0 +1,13 @@
+.xoanen-file  {
+    margin: 10px 0px;
+}
+.image img  , .imagetransparent img{
+    width: 100%;
+}
+.xoanen-submit {
+    margin-top: 10px;
+}
+.imagetransparent {
+    margin-top: 10px;
+    background: url("https://thumbs.dreamstime.com/b/transparent-photoshop-psd-png-seamless-grid-pattern-background-transparent-photoshop-psd-png-seamless-grid-pattern-background-grey-175598426.jpg");
+}

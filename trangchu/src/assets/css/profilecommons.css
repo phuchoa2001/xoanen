@@ -1,0 +1,23 @@
+.app-profile-info-btn {
+    background: black;
+    color: #fff;
+    border-radius: 5px;
+    height: 35px;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 9px 40px;
+    margin: 4px 0px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+.app-profile-info-btn--destroy {
+    background: #e24747;
+}
+.app-profile-info-btn:hover {
+    color: #bebebe;
+  }
+.app-profile-info-btn-icon {
+    margin-right: 10px;
+}

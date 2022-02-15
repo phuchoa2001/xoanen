@@ -1,0 +1,8 @@
+export const ADD_JOB_ALARM = "ADD_JOB_ALARM ";
+export const CHANGE_SELECT_JOB_ALARM = "CHANGE_SELECT_JOB_ALARM";
+export const CHANGE_JOB_ALARM = "CHANGE_JOB_ALARM";
+export const EDIT_JOB_ALARM = "EDIT_JOB_ALARM";
+export const DETELE_JOB_ALARM = "DETELE_JOB_ALARM";
+export const RESET_JOB = "RESET_JOB";
+export const SET_PAGE = "SET_PAGE";
+export const STARE_PAGE = "STARE_PAGE";

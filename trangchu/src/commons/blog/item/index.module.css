@@ -1,0 +1,30 @@
+.item_body {
+    display: flex;
+}
+.item {
+    width: 100%;
+    border: 3px 0px solid #333 ;
+    cursor: pointer;
+}
+.item_info {
+    width: 70%;
+}
+.item_heading {
+    font-size: 15px;
+    margin-top: 2px;
+    font-weight: 700;
+}
+.item_context {
+    max-height: 40px;
+    font-size: 10px;
+}
+.item_date {
+    font-size: 8px;
+    margin-top: 2px;
+}
+.item_thumb {
+    width: 30%;
+}
+.item_thumb img {
+    width: 100%;
+}

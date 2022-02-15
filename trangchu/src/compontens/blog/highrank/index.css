@@ -1,0 +1,19 @@
+p {
+    margin: 0;
+}
+.highrank_col {
+    padding-bottom: 10px;
+}
+.highrank_author  {
+    display: flex;
+}
+.highrank_author_img{
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.highrank_author_name {
+    height: 30px;
+    line-height: 30px;
+    font-weight: 700;
+}

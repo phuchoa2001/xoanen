@@ -1,0 +1,17 @@
+.list {
+    width: 90%;
+    margin-left: 5%;
+    padding-bottom: 1%;
+}
+.boxsearch {
+    margin-top: 10px;
+}
+.item {
+    padding: 10px 0px;
+}
+@media only screen and (max-width: 541px) {
+    .list {
+        width: 96%;
+        margin-left: 2%;
+    }
+}

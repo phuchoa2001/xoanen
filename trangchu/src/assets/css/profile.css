@@ -1,0 +1,222 @@
+.app-box-profile {
+  height: 800px;
+}
+.app-profile-beerphoto {
+  height: 50%;
+  position: relative;
+}
+.app-profile-beerphoto-img {
+  height: 100%;
+}
+.app-profile-info {
+  height: 50%;
+}
+.app-profile-info-avatar {
+  height: 18%;
+  position: relative;
+}
+.app-profile-info-avatar-add {
+  position: absolute;
+  background: black;
+  color: #fff;
+  left: 30%;
+  top: 15px;
+  padding: 3px 40px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+.app-profile-info-avatar-add:hover {
+  color: #bebebe;
+}
+.app-profile-info-avatar-etion-icon {
+  margin-right: 10px;
+}
+.app-profile-info-avatar-boximg {
+  border-radius: 50%;
+  height: 100px;
+  top: -50px;
+  left: 10px;
+  overflow: hidden;
+  width: 100px;
+  background: black;
+  position: absolute;
+}
+.app-profile-info-avatar-boximg-img {
+
+}
+.app-profile-info-avatar-username {
+  height: 10%;
+  font-weight: 300;
+  font-size: 20px;
+  margin-left: 5px;
+}
+.form-floating {
+  font-size: 10px;
+}
+
+.app-profile-info-description-text-etiontext {
+  margin-right: 4px;
+}
+.app-profile-info-description-boxetiontext {
+  margin: 5px 0px ;
+}
+.app-profile-info-description-text {
+  font-size: 12px;
+  margin-left: 5px;
+  font-weight: 600;
+  margin-top: 10px;
+  color: blue;
+  text-decoration: none;
+}
+.app-profile-info-description-box {
+  border-radius: 5%;
+  border: 2px solid #ced4da;
+  padding-bottom: 2%;
+}
+.app-profile-info-description-box-text {
+  font-size: 12px;
+  padding: 0px 5px;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.5);
+}
+.messger-registration-changpassword{
+ margin-top: 10px;
+}
+.app-profile-info-btn-icon {
+  margin-right: 15px;
+}
+.app-profile-box-text {
+  text-align: center;
+}
+.app-profile-diglog {
+  position: fixed;
+  width: 92%;
+  left: 4%;
+  top: 4%;
+  height: 92%;
+  background: #fff;
+  border-radius: 5px;
+  animation-name: diglog;
+  animation-duration: 0.7s;
+}
+.barslide-digbox {
+  height: 2px;
+  background: black;
+  width: 5px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  animation-name: barslidedogbox;
+  animation-delay: 0.7s;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+}
+@keyframes diglog {
+  from {
+    top: -20%;
+    opacity: 0;
+  }
+  to {
+    top: 4%;
+    opacity: 1;
+  }
+}
+@keyframes barslidedogbox {
+  from {
+    width: 5%;
+  }
+  to {
+    width: 100%;
+  }
+}
+/* dưới là diglog */
+.app-profile-diglog-updateimg-box,
+.app-profile-diglog-changethepassword-box ,
+.app-profile-diglog-description-box {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.app-profile-diglog-updateimg-boxtext ,
+.app-profile-diglog-description-boxtext {
+  width: 100%;
+  height: 20%;
+}
+.app-profile-diglog-updateimg-text,
+.app-profile-diglog-changethepassword-boxtext ,
+.app-profile-diglog-description-text {
+  text-align: center;
+  margin: 0;
+}
+.app-profile-diglog-updateimg-boxupdate,
+.app-profile-diglog-changethepassword-boxupdate {
+  height: 200px;
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+}
+.app-profile-diglog-updateimg-boximg {
+  margin: auto;
+  height: 200px;
+  width: 200px;
+}
+.app-profile-diglog-changethepassword-boximg {
+  margin: auto;
+  border-radius: 50%;
+  height: 200px;
+  overflow: hidden;
+  width: 200px;
+  border: 3px solid #ced4da;
+  display: flex;
+}
+.app-profile-diglog-changethepassword-boximg-boxkey {
+  margin: auto;
+  border-radius: 50%;
+  height: 150px;
+  overflow: hidden;
+  width: 150px;
+  background: ced4da;
+  border: 3px solid #ced4da;
+  display: flex;
+}
+.app-profile-diglog-changethepassword-boximg-key {
+    font-size: 80px;
+    color: #525257;
+    margin: auto;
+}
+.app-profile-diglog-updateimg-updatebtn-btn-icon {
+  margin-right: 10px;
+}
+.app-profile-diglog-updateimg-updatebtn-btn {
+  height: 30px;
+  width: 200px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 30px;
+  background: black;
+  color: #fff;
+  margin: auto;
+}
+.app-profile-diglog-updateimg-updatebtn {
+  display: flex;
+  margin-top: 10px;
+}
+.app-profile-diglog-updateimg-updatebtn-form {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.app-profile-diglog-updateimg-updatebtn-input {
+  display: none;
+}
+.app-profile-diglog-updateimg-boxbtn {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+}
+/* etiondescription css*/
+.app-profile-diglog-description-boxtextarea {
+  margin: 10px 0px;
+}

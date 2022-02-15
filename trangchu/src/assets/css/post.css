@@ -1,0 +1,248 @@
+.app-profile  {
+  margin-bottom: 5px;
+}
+.app-profile-box-text-link {
+ display: inline-block;
+ width: 100%;
+ text-decoration: none;
+ color: black;
+}
+.app-profile-box-list-item {
+  margin-top: 10px;
+  border: 5px;
+}
+.app-profile-box-item-box-account {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+.app-profile-box-createpost {
+  margin-left: 10px;
+}
+.app-profile-box-item {
+}
+.app-profile-box-item-box-username {
+  display: flex;
+}
+.app-profile-box-item-box-username-Heading-name {
+  font-size: 14px;
+}
+.app-profile-box-item-box-username-boximg {
+  height: 50px;
+  width: 50px;
+}
+.app-profile-box-item-box-username-Time {
+  font-size: 8px;
+}
+.app-profile-box-item-box-menu {
+  width: 30%;
+}
+.app-profile-box-item-box-menu-icon {
+  float: right;
+}
+.app-profile-box-item-boxsubmenu {
+  position: relative;
+}
+.app-profile-box-item-box-submenu {
+  margin-top: 10px;
+}
+.app-profile-box-item-box-submenu li {
+  height: 30px;
+  list-style-type: none;
+  line-height: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app-profile-box-item-box-submenu-item-icon {
+  margin-left: 10px;
+  font-size: 18px;
+}
+.app-profile-box-item-box-submenu-item-text {
+  margin: 0;
+  display: block;
+  font-weight: 700;
+}
+.app-profile-box-item-box-menu-content {
+  margin-left: 20px;
+}
+.app-profile-box-item-box-menu-content-heading-text {
+  font-size: 12px;
+}
+.app-profile-box-item-box-menu-content-boximage {
+  display: flex;
+}
+.app-profile-box-item-box-menu-content-image {
+  margin: auto;
+}
+.app-profile-box-item-box-menu-bar {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  display:flex;
+}
+.app-profile-box-item-box-menu-bar-like,
+.app-profile-box-item-box-menu-bar-comment {
+    width: 50%;
+    text-align: center;
+    border-top:2px solid rgb(236, 231, 231) ;
+    border-bottom:2px solid rgb(236, 231, 231) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app-profile-box-item-box-menu-bar-like:hover , 
+.app-profile-box-item-box-menu-bar-comment:hover {
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+.app-profile-box-item-box-menu-bar-like p , 
+.app-profile-box-item-box-menu-bar-comment p  {
+    font-size: 15px;
+    margin: 0;
+}
+.app-profile-box-item-box-menu-bar-like-stt , 
+.app-profile-box-item-box-menu-bar-comment-stt {
+ margin-right: 3px;
+}
+.app-profile-box-item-box-menu-bar-like i , 
+.app-profile-box-item-box-menu-bar-comment i {
+    font-size: 14px;
+    margin-right: 15px;
+}
+.app-profile-box-item-box-comment {
+  width: 100%;
+}
+.app-profile-box-item-boxcreate-comment-item , 
+.app-profile-box-item-box-comment-item
+ {
+  height: 50px;
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+}
+.app-profile-box-item-boxcreate-comment-avatar ,
+.app-profile-box-item-box-comment-avatar
+  {
+  width: 7%;
+  margin-right: 1%;
+}
+.app-profile-box-item-boxcreate-comment-bar-create ,
+.app-profile-box-item-box-comment-bar-create 
+ {
+   display: flex;
+  width: 92%;
+}
+.app-profile-box-item-boxcreate-comment-bar-create-input {
+  height: 50px;
+  border:3px solid #ECF3FF ;
+  font-size: 13px;
+  outline: none;
+  border-radius:5px ;
+  width: 99%;
+  padding: 0px 1%;
+}
+.app-profile-box-item-box-comment-bar-create-user {
+  margin-left: 1%;
+}
+.app-profile-box-item-box-comment-bar-create-user-name {
+  font-weight: 700;
+  font-size: 14px;
+}
+.app-profile-box-item-box-comment-bar-create-text {
+  font-weight: 300;
+  font-size: 11px;
+}
+.app-profile-box-item-box-comment-bar-create-menu {
+  font-size: 10px;
+  width: 10%;
+  display: flex;  
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.app-profile-box-item-box-comment-bar-create-menu-boxsubmenu {
+  position: absolute;
+  left: 50px;
+  width: 200px;
+  top: 29px;
+}
+.app-profile-box-item-box-comment-bar-create-menu-submenu-item {
+  display: flex;
+  height: 30px;
+  margin-left: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.app-profile-box-item-box-comment-bar-create-menu-submenu-item-text {
+  margin: 0;
+}
+.app-profile-box-item-box-comment-bar-create-menu-submenu-item-icon {
+  margin-left:10px;
+}
+.app-profile-box-item-boxcreate-comment-add {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+.app-profile-box-item-boxcreate-comment-add-text {
+  font-size: 10px;
+}
+/* DigLog-Post */
+.app-profile-diglog-updateimg-post-input {
+  display: none;
+}
+.app-profile-diglog-post-box {
+  width: 100%;
+  height: 100%;
+  position: relative; 
+}
+.app-profile-diglog-post-boxtext {
+  width: 100%;
+  height: 20%;
+}
+.app-profile-diglog-post-text {
+  text-align: center;
+  margin: 0;
+}
+.app-profile-diglog-updateimg-post-btn {
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  display: flex;
+  margin-top: 5px;
+}
+.app-profile-diglog-post-updatebtn-form-file {
+  margin-top: 10px;
+}
+.app-profile-diglog-post-updatebtn {
+  margin-top: 20px;
+}
+.app-profile-diglog-updateimg-post-input {
+  display: none;
+}
+.app-profile-diglog-updateimg-post-btn-icon {
+  margin-right: 10px;
+}
+.app-profile-diglog-updateimg-post-btn {
+  height: 30px;
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 30px;
+  background: black;
+  color: #fff;
+  margin: auto;
+  justify-content: center; 
+  align-items: center;
+}
+.app-profile-diglog-post-updatebtn-form-file-listimg {
+  display: flex;
+}
+.app-profile-diglog-updateimg-post-select {
+  margin-top: 10px;
+  margin-right: 2px;
+}

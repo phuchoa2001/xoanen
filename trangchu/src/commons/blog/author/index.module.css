@@ -1,0 +1,13 @@
+.author  {
+    display: flex;
+}
+.author_img{
+    height: 30px;
+    border-radius: 50%;
+}
+.author_name {
+    height: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-left: 10px;
+}

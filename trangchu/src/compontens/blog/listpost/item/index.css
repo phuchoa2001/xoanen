@@ -1,0 +1,23 @@
+.listpost_thunk {
+    width: 100%;
+}
+.listpost_thunk img {
+    width: 100%;
+}
+.listpost_content_name {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 10px;
+    min-height: 60px;
+}
+.listpost_content_author {
+    display: flex;
+    justify-content: space-between;
+}
+.listpost_content_author_date , .listpost_content_author_name {
+    font-size: 10px;
+}
+.listpost_item {
+    margin: 10px 0px;
+    cursor: pointer;
+}

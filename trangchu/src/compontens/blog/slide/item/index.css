@@ -1,0 +1,29 @@
+.item {
+    background-size:100%;
+    position: relative;
+    width: 100%;
+}
+.item img {
+    filter: hue-rotate(30deg);
+    width: 100%;
+}
+.content {
+    position: absolute;
+    bottom: 5px;
+    left: 30px;
+}
+.content h3 {
+    color: #333;
+    width: 60%;
+    text-align: left;
+    font-size: 20px;
+}
+.item_time {
+    display: block;
+}
+.item_time_author  , .item_time_date{
+    color: #333;
+    font-size: 15px;
+    display: block;
+    width: 100%;
+}

@@ -1,0 +1,68 @@
+
+.Sidebar_memu {
+    display: block;
+    width: 100%;
+    padding: 0px;
+    background: #343a40;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+}
+.Sidebar_memu ul {
+    width: 90%;
+    padding: 0px;
+    padding: 10px 0px;
+}
+.Sidebar_memu ul li {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    text-align: left;
+    padding: 10px 0px;
+    border-radius: 4px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2px 0px;
+}
+.Sidebar_memu ul li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.Sidebar_memu ul li.active {
+    background: rgb(0, 123, 255);
+}
+.Sidebar_memu ul li.active a {
+    color: #fff;
+}
+.Sidebar_memu ul li a {
+    text-decoration: none;
+    color: #c2c7d0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.Sidebar_memu ul li i {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.Sidebar_memu ul.Sidebar_memu_box-icon {
+    width: 100%;
+    padding: 0px;
+}
+.Sidebar_memu ul li.active .Sidebar_memu_submenu {
+    display: block;
+    padding: 0px;
+}
+.Sidebar_memu ul li.active .Sidebar_memu_submenu li a {
+    margin-left: 10px;
+}
+.Sidebar_memu_submenu li a {
+    color: #fff;
+}
+.Sidebar_memu_submenu li a i {
+    margin-left: 10px;
+    color: #fff;
+}
+.Sidebar_memu ul.Sidebar_memu_submenu {
+    width: 100%;
+    display: none;
+}

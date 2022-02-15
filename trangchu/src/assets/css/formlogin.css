@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0px;
+}
+.login-img {
+  margin-top: 20px;
+  height: 650px;
+  position: relative;
+  border-right: 2px solid #fff;
+  overflow: hidden;
+}
+.login-img-heading-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+  filter: grayscale(50%);
+}
+.login-img-heading {
+  margin: 50px;
+  color: #fff;
+}
+.login-img-heading-box {
+  z-index: 2;
+  position: absolute;
+}
+.login-img-heading-text {
+  font-size: 100px;
+}
+.img-heading-light {
+  background: #fff;
+  color: black;
+  margin-left: 3px;
+}
+.login-img-heading-content {
+  width: 80%;
+}
+.img-heading-start {
+  color: #fff;
+}
+.login-form,
+.registration-form {
+  height: 650px;
+  margin-top: 20px;
+  border-right: 3px solid #333;
+}
+.login-box,
+.registration-box {
+  width: 80%;
+  margin-left: 10%;
+}
+#carouselExampleControls {
+  margin-bottom: 10px;
+}
+.form-login-btnregistration {
+  color: #999;
+}
+.carousel-item-img {
+  width: 100%;
+  height: 300px;
+}
+.box-checkpassword,
+.box-password {
+  display: flex;
+  position: relative;
+}
+.checkpassword-box-icon,
+.password-box-icon {
+  display: flex;
+  position: absolute;
+  right: 0;
+  height: 38px;
+  width: 8%;
+  border-radius: 2px;
+  border-left: 1px solid #ced4da;
+}
+.checkpassword-icon,
+.password-icon {
+  font-size: 20px;
+  margin: auto;
+}
+.confirm-form h3 {
+  text-align: center;
+  margin-top: 10px;
+}

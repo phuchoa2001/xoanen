@@ -1,0 +1,17 @@
+.menu {
+    width: 10%;
+    position: relative;
+    cursor: pointer;
+}
+.submenu {
+    width: 150px;
+    position: absolute;
+    left: -150px;
+    top: 0px;
+}
+.item {
+    list-style-type: none;
+    height: 50px;
+    line-height: 50px;
+    margin: 4px 0px;
+}

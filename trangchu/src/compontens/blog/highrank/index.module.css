@@ -1,0 +1,15 @@
+.item {
+    height: 25%;
+}
+.list {
+    width: 100%;
+    padding: 0px;
+    height: calc(547px - 30px);
+}
+.heading {
+    border-bottom: 3px solid #333;
+    width: 30%;
+    text-align: left;
+    font-weight: 700;
+    height: 40px;
+}

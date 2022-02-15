@@ -1,0 +1,52 @@
+@media only screen and (min-width: 0px) and (max-width: 280px) {
+    .app-profile-box-item-boxsubmenu {
+        width: 200px;
+        left: -170%;
+        bottom: 0.5%;
+    }
+    .app-profile-box-item-box-comment-bar-create-menu-boxsubmenu {
+        position: absolute;
+        left: -200px;
+        width: 200px;
+        top: 30px;
+    }
+
+}
+@media only screen and (min-width: 320px) and (max-width: 600px) { 
+    .app-profile-box-item-boxsubmenu {
+        width: 200px;
+        left: -100%;
+        bottom: 0.5%;
+    }
+    .app-profile-box-item-box-comment-bar-create-menu-boxsubmenu {
+        position: absolute;
+        left: -200px;
+        width: 200px;
+        top: 30px;
+    }
+    .app-profile-box-createpost {
+        margin-left: 0px;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 800px) { 
+    .app-profile-box-createpost {
+        margin-left: 0px;
+    }
+}
+@media only screen and (min-width: 960px) and (max-width: 1140px) { 
+    .app-profile-box-createpost {
+        margin-left: 0px;
+    }
+}
+@media only screen and (min-width: 1140px) and (max-width: 1320px) { 
+
+}
+@media only screen  and (min-width: 1321px) { 
+    .app-profile-beerphoto {
+        display: flex;
+    }
+    .app-profile-beerphoto-img {
+       height: auto;
+    }
+
+}
