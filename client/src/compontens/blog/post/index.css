@@ -1,0 +1,25 @@
+.Blog_post_id a,
+.Blog_post_id span {
+    display: block;
+    word-wrap: break-word;
+    width: 100%;
+    background: #fff;
+}
+.Blog_post_id img {
+    max-width: 100%;
+}
+.Blog_post_id p,
+.Blog_post_id h1,
+.Blog_post_id h2,
+.Blog_post_id h3,
+.Blog_post_id h4,
+.Blog_post_id h5,
+.Blog_post_id h6 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.Blog_post_id span {
+    width: auto;
+}

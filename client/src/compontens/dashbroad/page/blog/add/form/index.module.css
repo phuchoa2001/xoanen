@@ -1,0 +1,29 @@
+.form {
+    width: 99%;
+    margin-left: 1%;
+}
+
+.input {
+    border: none;
+    outline: none;
+    background: none;
+    height: 70px;
+    font-size: 20px;
+    width: 100%;
+    font-weight: 700;
+}
+.description {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.file {
+    margin: 10px 0px;
+}
+
+.btn {
+    width: 150px;
+    margin: 10px 0px;
+}

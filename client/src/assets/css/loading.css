@@ -1,0 +1,16 @@
+
+.App-Loading {
+    position: fixed;
+    display: flex;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    background: black;
+    opacity: 0.4;
+}
+.App-Login-img {
+    margin: auto;
+    height: 250px;
+    width: 250px;
+}

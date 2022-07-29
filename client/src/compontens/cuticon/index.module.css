@@ -1,0 +1,22 @@
+.nameapp {
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    text-align: center;
+}
+.info {
+    width: 98%;
+    margin-left: 1%;
+}
+.input {
+    margin: 10px 0px;
+}
+.listImage {
+    display: flex;
+    flex-wrap: wrap;
+    width: 98%;
+    margin: 50px 1%;
+}
+.canvas {
+    border: 2px solid #333;
+}
